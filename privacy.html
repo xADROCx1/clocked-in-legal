@@ -17,12 +17,12 @@
 <body>
 
 <h1>Clocked In — Privacy Policy</h1>
-<p class="muted">Last updated: May 19, 2026</p>
+<p class="muted">Last updated: May 21, 2026</p>
 
 <p><strong>Clocked In</strong> is a simple clock-in and timesheet app for hourly workers, tradespeople, and freelancers. This policy describes what data the app handles and how.</p>
 
 <h2>TL;DR</h2>
-<p>Clocked In is a <strong>local-first</strong> app. Your time entries, tasks, and notes are stored <strong>only on your device</strong>. We do not run servers, we do not have user accounts, and we do not collect analytics. The only time data leaves your device is if <em>you</em> choose to send it — by exporting a PDF or image, or sharing through your phone's text message, email, or share sheet.</p>
+<p>Clocked In is a <strong>local-first</strong> app. Your time entries, tasks, and notes are stored <strong>only on your device</strong>. We do not run servers, we do not collect analytics, and you can use every feature of the app without signing in. The only time data leaves your device is if <em>you</em> choose to send it — by exporting a PDF or image, sharing through your phone's text message, email, or share sheet, or by optionally signing in with Apple to keep your Pro subscription active across devices (described below).</p>
 
 <h2>What data the app stores on your device</h2>
 <ul>
@@ -33,11 +33,20 @@
 
 <h2>Data we do NOT collect</h2>
 <ul>
-  <li>No user accounts — we don't know who you are.</li>
+  <li>No required user accounts — the app works fully without signing in (Apple Sign-In is optional, see below).</li>
   <li>No telemetry, crash reporting, or analytics — we don't track how you use the app.</li>
   <li>No advertising identifiers, no ad tracking, no third-party ad SDKs.</li>
   <li>No location tracking — Clocked In does not request or use your location.</li>
   <li>No contacts, photos, or device file access beyond what the system share sheet requires when you tap Export.</li>
+</ul>
+
+<h2>Optional Sign in with Apple</h2>
+<p>You can optionally sign in with Apple from the Settings screen. This is <strong>not required</strong> to use any feature of the app, including Pro. When you sign in:</p>
+<ul>
+  <li>We store the opaque user identifier that Apple returns (a string like <code>000123.abc…</code>). We do not store, transmit, or see your name or email — Apple keeps both.</li>
+  <li>We send that identifier to RevenueCat as your subscription identity so that your Pro entitlement automatically restores on any other device you sign in to with the same Apple ID, without you having to tap "Restore Purchases."</li>
+  <li>The identifier is namespaced to our developer team — it cannot be used to look you up in any other app.</li>
+  <li>Signing out from Settings deletes the identifier from your device and tells RevenueCat to forget the association.</li>
 </ul>
 
 <h2>Subscription and payment processing</h2>
